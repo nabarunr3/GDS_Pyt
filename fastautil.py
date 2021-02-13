@@ -18,12 +18,12 @@ four tasks at hand:
 
 import sys
 
-#now we will take the second argument of our command line input
+#now we will take the second argument of our command line input 
 fasta_file = sys.argv[1]
 
-#try to open, read the file and store in a string
+#which is our file, and try to open it
 try:
-	open(fasta_file)
+	fasta_string = open(fasta_file, 'r')
 except IOError:		#pass exception of cannot open
 	print("File nonexistant")
 
@@ -38,8 +38,8 @@ def fastadict(fastafile):
 	for line in fastafile:
 		line = line.rstrip()	#removing newline characters
 		if line[0] == '>':
-			key = line
-			"""Assigning the line as key. Depending on the header,
+			dict_key = line
+			"""Assigning the line as dict_key. Depending on the header,
 			individual words might also be assigned as headers
 			by splitting the header using
 
@@ -47,18 +47,22 @@ def fastadict(fastafile):
 
 			This stores the word strings in a list."""
 
-			fasta_dict[key] = ''
+			fasta_dict[dict_key] = ''
 		else:	#sequence, not header
-			fasta_dict[key] = fasta_dict[key] + line
-			"""The 'key' key is used because key variable is
+			fasta_dict[dict_key] = fasta_dict[dict_key] + line
+			"""The 'dict_key' key is used because key variable is
 			already initialized with the previous header.
-			A new header will automatically be initialized with
+			A new header will automatically be initialized
 			as a new key, because of the if codeblock."""
 
-	close(fastafile)
 	return fasta_dict
 
-dict = fastadict(fasta_file)
+"""
+#Testing fastadict()
+
+dict = fastadict(fasta_string)
 for header, sequence in dict.items():
 	print(header, sequence)
+"""
+
 
