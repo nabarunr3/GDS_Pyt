@@ -1,0 +1,26 @@
+If this is a double-stranded sequence of DNA:
+
+	5' ATTGACTGACGATACGGATCGGAG 3' 
+	3' TAACTGACTGCTATGCCTAGCCTC 5'
+
+Forward frames:
+Three frames for forward strand:
+
+	5' ATTGACTGACGATACGGATCGGAG 3'
+
+	ATT GAC TGA CGA TAC GGA TCG GAG
+
+	AT TGA CTG ACG ATA CGG ATC GGA G
+
+	A TTG ACT GAC GAT ACG GAT CGG AG 
+
+Reverse frames:
+The reverse frames are the 3 frames for the reverse strand
+
+	5' CTCCGATCCGTATCGTCAGTCAAT 3'
+
+	CTC CGA TCC GTA TCG TCA GTC AAT
+
+	CT CCG ATC CGT ATC GTC AGT CAA T
+
+	C TCC GAT CCG TAT CGT CAG TCA AT 
