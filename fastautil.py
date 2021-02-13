@@ -28,13 +28,13 @@ except IOError:		#pass exception of cannot open
 	print("File nonexistant")
 
 #We define a function for storing the file in the dictionary
-def fastadict(fastafile):
+def fastadict(fasta_str):
 	"""
 	This function reads a fasta file and stores in a dictionary
 
 	"""
 	fasta_dict = {}	#initializing empty dictionary
-	for line in fastafile:
+	for line in fasta_str:
 		line = line.rstrip()	#removing newline characters
 		if line[0] == '>':	#first character of fasta header is '>'
 			words = line.split()
