@@ -2,7 +2,8 @@
 #!/usr/bin/python3.8
 
 """
-This module will show all the orfs and find the longest orf
+This module will show the start and stop codons 
+of all the orfs and find the longest orf
 
 """
 import fastautil
@@ -19,10 +20,12 @@ except IOError:
 
 
 def orf_find(seq):
-	"""This function takes a DNA sequence and 
-	finds all the orfs in all three reading frames. It returns a dictionary
-	containing all the three frames. Each frame is a list which contains a several ORF 
-	entries. An ORF entry is a nested list which enlists the start codon, the stop codon and the 
+	"""This function takes a DNA sequence and
+	finds all the orfs in all three reading frames.
+	It returns a dictionary containing all the
+	three frames. Each frame is a list which contains
+	several ORF entries. An ORF entry is a nested list
+	which enlists the start codon, the stop codon and the
 	distance between the start and stop codons."""
 
 	framedict = {}
@@ -30,42 +33,53 @@ def orf_find(seq):
 	stop_codon_tuple = ("TAA", "TAG", "TGA")
 
 	for frame in range(3):	#frame will run 0,1,2
-		seq_frame = seq[frame:]	#setting the start position
-		start_positions = []
-		framedict["frame" + str(frame + 1)] = [] 
-		"""initializing the ORF entries list corresponding to the 
-		frame of reference"""
+		seq_frame = seq[frame:]	#setting start of reading position
+#		print(seq_frame) #tests if correct frames are loaded in loop
 
-		for index in range(len(seq_frame)):
+		start_positions = []
+		framedict["Frame" + str(frame + 1)] = []
+		"""initializing the ORF entries list corresponding to the
+		frame of reference"""
+		
+		index = 0
+		while (index < len(seq_frame)):
 			codon = seq_frame[index:(index + 3)]
 			#going codon by codon
-
+#			print(codon)	#tests if codons are being extracted properly
 			if codon == start_codon:
 				start_positions.append(index + frame)
 
 			if codon in stop_codon_tuple and start_positions != []:
-				#we would want a start codon 
-				#preceeding a stop codon
+				"""we would want at least one start codon
+				preceeding a stop codon"""
 				stop_pos = index + frame
 
 				for start_codon_pos in start_positions:
-					framedict["frame" + str(frame + 1)].append(\
-					[start_codon_pos, stop_pos, (stop_pos - start_codon_pos)])
-					"""this should consider as ORFs the sequences
-					between each start codons before the discovered stop codon
-					and the stop codon"""
+					framedict["Frame" + str(frame + 1)\
+					].append([start_codon_pos, stop_pos])
+					"""this should consider as ORFs the 
+					sequences between each start codon
+					before the discovered stop codon
+					and, the stop codon"""
 
-				start_positions = [] #empyting the start codon position buffer to store new start positions
+				start_positions = []
+				"""empyting the start codon position 
+				buffer to store new start positions"""
 
-			index = index + 3 #so that the window reads three bases at a time w/o overlap
+			index = index + 3
+			"""so that the window reads three bases 
+			at a time w/o overlap"""
 	return framedict
 
+"""
 #Test orf_find()
-test_strings = ["ATGCCGGGGGGGTAGCGGGCGGGGGG", "CATGCGGGGGGGTAGCGGGCGGGGGG", "CCATGGGGGGGGTAGCGGGCGGGGGG"]
+test_strings = ["ATGCATGTGGGGTAGCTGACGGGGGG",  
+		"ATGCGGGGGGGTAGCGGGCGGGGGG",   
+		"ATGGGGGGGGTAGCGGGCGGGGGG"]
 framedict = orf_find(test_strings[0])
 for frames,orfs in framedict.items():
 	print(frames, orfs)
-
+"""
 
 def fasta_ORFs(fasta_string):
 	"""
@@ -89,7 +103,8 @@ def fasta_ORFs(fasta_string):
 
 	for identifier in fasta_dict:
 		by_seq_by_frame_ORF_list_dict[identifier] = {}
-		by_seq_by_frame_ORF_list_dict[identifier] = orf_find(fasta_dict[identifier])
+		by_seq_by_frame_ORF_list_dict[identifier] \
+		= orf_find(fasta_dict[identifier])
 		"""We're passing each sequence of the fasta file to the function
 		orf_find which will return a dictionary containing the
 		key-value pairs, where each key represents a reading frame..
@@ -123,5 +138,5 @@ def orf_compare(seq_dict):
 
 	return 0
 
-#orf_compare(fasta_ORFs(fasta_string))
+orf_compare(fasta_ORFs(fasta_string))
 
