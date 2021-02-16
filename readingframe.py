@@ -19,6 +19,12 @@ except IOError:
 
 
 def orf_find(seq):
+	"""This function takes a DNA sequence and 
+	finds all the orfs in all three reading frames. It returns a dictionary
+	containing all the three frames. Each frame is a list which contains a several ORF 
+	entries. An ORF entry is a nested list which enlists the start codon, the stop codon and the 
+	distance between the start and stop codons."""
+
 	framedict = {}
 	start_codon = "ATG"
 	stop_codon_tuple = ("TAA", "TAG", "TGA")
@@ -27,7 +33,7 @@ def orf_find(seq):
 		seq_frame = seq[frame:]	#setting the start position
 		start_positions = []
 		framedict["frame" + str(frame + 1)] = [] 
-		"""initializing the ORF list corresponding to the 
+		"""initializing the ORF entries list corresponding to the 
 		frame of reference"""
 
 		for index in range(len(seq_frame)):
@@ -49,11 +55,16 @@ def orf_find(seq):
 					between each start codons before the discovered stop codon
 					and the stop codon"""
 
-				start_pos = [] #empyting the start codon position buffer to store new start positions
+				start_positions = [] #empyting the start codon position buffer to store new start positions
 
 			index = index + 3 #so that the window reads three bases at a time w/o overlap
 	return framedict
 
+#Test orf_find()
+test_strings = ["ATGCCGGGGGGGTAGCGGGCGGGGGG", "CATGCGGGGGGGTAGCGGGCGGGGGG", "CCATGGGGGGGGTAGCGGGCGGGGGG"]
+framedict = orf_find(test_strings[0])
+for frames,orfs in framedict.items():
+	print(frames, orfs)
 
 
 def fasta_ORFs(fasta_string):
@@ -99,14 +110,12 @@ def orf_compare(seq_dict):
 		for frame in seq_dict[seq_identifier]:
 			print(frame + "\n")
 
-			for ORF_index in range(len(seq_dict[seq_identifier][frame]) - 1):
-				print("\t(")
-				print(*seq_dict[seq_identifier][frame])
+			print(*seq_dict[seq_identifier][frame])
 
 #				for parameters in range(len(seq_dict[seq_identifier][frame][ORF_index]) - 1):
 #					print()
 
-				print(")")
+			print("\n")
 
 
 #	for keys, values in seq_dict.items():
@@ -114,4 +123,5 @@ def orf_compare(seq_dict):
 
 	return 0
 
-orf_compare(fasta_ORFs(fasta_string))
+#orf_compare(fasta_ORFs(fasta_string))
+
