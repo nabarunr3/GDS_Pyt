@@ -23,7 +23,7 @@ def orf_find(seq):
 	start_codon = "ATG"
 	stop_codon_tuple = ("TAA", "TAG", "TGA")
 
-	for frame in range(2):	#frame will run 0,1,2
+	for frame in range(3):	#frame will run 0,1,2
 		seq_frame = seq[frame:]	#setting the start position
 		start_positions = []
 		framedict["frame" + str(frame + 1)] = [] 
@@ -46,9 +46,10 @@ def orf_find(seq):
 					framedict["frame" + str(frame + 1)].append(\
 					[start_codon_pos, stop_pos, (stop_pos - start_codon_pos)])
 					"""this should consider as ORFs the sequences
-					between all start codons before the discovered stop codon"""
+					between each start codons before the discovered stop codon
+					and the stop codon"""
 
-				start_pos = [] #empyting the start codon position buffer
+				start_pos = [] #empyting the start codon position buffer to store new start positions
 
 			index = index + 3 #so that the window reads three bases at a time w/o overlap
 	return framedict
@@ -77,7 +78,7 @@ def fasta_ORFs(fasta_string):
 
 	for identifier in fasta_dict:
 		by_seq_by_frame_ORF_list_dict[identifier] = {}
-		by_seq_by_frame_ORF_list_dict = orf_find(fasta_dict[identifier])
+		by_seq_by_frame_ORF_list_dict[identifier] = orf_find(fasta_dict[identifier])
 		"""We're passing each sequence of the fasta file to the function
 		orf_find which will return a dictionary containing the
 		key-value pairs, where each key represents a reading frame..
@@ -92,20 +93,24 @@ def orf_compare(seq_dict):
 	It then compares the length of the ORFs in all sequences of the file. 
 	"""
 
-	for sequence in seq_dict:
-		print(sequence)
+	for seq_identifier in seq_dict:
+		print(seq_identifier + "\n")
 
-		for frame in seq_dict[sequence]:
-			print(frame)
+		for frame in seq_dict[seq_identifier]:
+			print(frame + "\n")
 
-			for ORF in seq_dict[sequence][frame].items():
-				print("(")
+			for ORF_index in range(len(seq_dict[seq_identifier][frame]) - 1):
+				print("\t(")
+				print(*seq_dict[seq_identifier][frame])
 
-				for parameter in seq_dict[sequence][frame][ORF_index].item():
-					print(seq_dict[sequence][frame][ORF_index][param_index] + "\ ")
+#				for parameters in range(len(seq_dict[seq_identifier][frame][ORF_index]) - 1):
+#					print()
 
 				print(")")
-				print("\n")
+
+
+#	for keys, values in seq_dict.items():
+#		print(keys, values, "\n")
 
 	return 0
 
