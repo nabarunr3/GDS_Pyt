@@ -7,6 +7,8 @@ This module will show all the orfs and find the longest orf
 """
 import fastautil
 
+import sys
+
 fastafile = sys.argv[1]
 
 try:
@@ -28,19 +30,19 @@ def orf_find(seq):
 		"""initializing the ORF list corresponding to the 
 		frame of reference"""
 
-		for index in len(seq[frame]):
+		for index in range(len(seq_frame)):
 			codon = seq_frame[index:(index + 3)]
 			#going codon by codon
 
 			if codon == start_codon:
-				start_posistions.append(index + frame)
+				start_positions.append(index + frame)
 
-			if codon in stop_codon_tuple and start_pos != []:
+			if codon in stop_codon_tuple and start_positions != []:
 				#we would want a start codon 
 				#preceeding a stop codon
 				stop_pos = index + frame
 
-				for start_codon_positions in start_pos:
+				for start_codon_pos in start_positions:
 					framedict["frame" + str(frame + 1)].append(\
 					[start_codon_pos, stop_pos, (stop_pos - start_codon_pos)])
 					"""this should consider as ORFs the sequences
@@ -50,7 +52,6 @@ def orf_find(seq):
 
 			index = index + 3 #so that the window reads three bases at a time w/o overlap
 	return framedict
-
 
 
 
@@ -75,7 +76,7 @@ def fasta_ORFs(fasta_string):
 	[start_position, stop_position, ORF length]"""  
 
 	for identifier in fasta_dict:
-		by_frame_ORF_list_dict[identifier] = {}
+		by_seq_by_frame_ORF_list_dict[identifier] = {}
 		by_seq_by_frame_ORF_list_dict = orf_find(fasta_dict[identifier])
 		"""We're passing each sequence of the fasta file to the function
 		orf_find which will return a dictionary containing the
@@ -84,10 +85,28 @@ def fasta_ORFs(fasta_string):
 
 	return by_seq_by_frame_ORF_list_dict
 
-def orf_compare(input_frame):
+def orf_compare(seq_dict):
 	"""
-	This function takes in a complex nested ORF containing dictionary.
-	It then compares the length of the ORF 
+	This function takes in a complex nested ORF containing dictionary,
+	created from a fasta file.
+	It then compares the length of the ORFs in all sequences of the file. 
 	"""
 
-for i
+	for sequence in seq_dict:
+		print(sequence)
+
+		for frame in seq_dict[sequence]:
+			print(frame)
+
+			for ORF in seq_dict[sequence][frame].items():
+				print("(")
+
+				for parameter in seq_dict[sequence][frame][ORF_index].item():
+					print(seq_dict[sequence][frame][ORF_index][param_index] + "\ ")
+
+				print(")")
+				print("\n")
+
+	return 0
+
+orf_compare(fasta_ORFs(fasta_string))
