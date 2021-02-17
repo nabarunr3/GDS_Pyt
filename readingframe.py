@@ -42,10 +42,14 @@ def orf_find(seq):
 		frame of reference"""
 		
 		index = 0
-		while (index < len(seq_frame)):
+		for index in range (0, len(seq_frame), 3):
+			"""so that the window reads three bases 
+			at a time w/o overlap"""
+
 			codon = seq_frame[index:(index + 3)]
 			#going codon by codon
 #			print(codon)	#tests if codons are being extracted properly
+
 			if codon == start_codon:
 				start_positions.append(index + frame)
 
@@ -66,9 +70,6 @@ def orf_find(seq):
 				"""empyting the start codon position 
 				buffer to store new start positions"""
 
-			index = index + 3
-			"""so that the window reads three bases 
-			at a time w/o overlap"""
 	return framedict
 
 """
@@ -116,19 +117,42 @@ def orf_compare(seq_dict):
 	"""
 	This function takes in a complex nested ORF containing dictionary,
 	created from a fasta file.
+
 	It then compares the length of the ORFs in all sequences of the file. 
+	->After each frame prints the longest ORF.
+	->After each identifier entry prints the longest ORF and the 
+	  corresponding frame considering all the frames.
+	->At the end of the file prints the length of the longest 
+	  ORF and the corresponding identifier in:
+	a)Frame1 b)Frame2 c)Frame3 d)In all frames
+
 	"""
 
 	for seq_identifier in seq_dict:
 		print(seq_identifier + "\n")
+		#printing sequence identifier
 
 		for frame in seq_dict[seq_identifier]:
 			print(frame + "\n")
+			#printing frame number
 
-			print(*seq_dict[seq_identifier][frame])
+#			print(*seq_dict[seq_identifier][frame])
+			intraframe_maxORF = 0
+			intraframe_maxORF_positions = []
+			for ORF_index in range(len(seq_dict[seq_identifier][frame])):
 
-#				for parameters in range(len(seq_dict[seq_identifier][frame][ORF_index]) - 1):
-#					print()
+				ORF_length = seq_dict[seq_identifier][frame][ORF_index][1]\
+						- seq_dict[seq_identifier][frame][ORF_index][0]
+
+				if ORF_length > intraframe_maxORF:
+					intraframe_maxORF = ORF_length
+					intraframe_maxORF_positions\
+					 = seq_dict[seq_identifier][frame][ORF_index]
+
+				print(*seq_dict[seq_identifier][frame])
+				print("The longest ORF is of length %d and has start and stop positions "\
+					 + intraframe_maxORF_positions\
+					%(intraframe_maxORF))
 
 			print("\n")
 
