@@ -60,11 +60,13 @@ def orf_find(seq):
 
 				for start_codon_pos in start_positions:
 					framedict["Frame" + str(frame + 1)\
-					].append([start_codon_pos, stop_pos])
+					].append([start_codon_pos + 1, stop_pos + 1])
 					"""this should consider as ORFs the 
 					sequences between each start codon
 					before the discovered stop codon
-					and, the stop codon"""
+					and, the stop codon. +1 to display output
+					positions starting from index 1 and not 
+					python default index 0."""
 
 				start_positions = []
 				"""empyting the start codon position 
@@ -127,40 +129,77 @@ def orf_compare(seq_dict):
 	a)Frame1 b)Frame2 c)Frame3 d)In all frames
 
 	"""
-
+	intersequence_maxORF = 0
+	intersequence_maxORF_positions = []
+	#the above will store the length and positions of the longest ORF in the file
 	for seq_identifier in seq_dict:
 		print(seq_identifier + "\n")
 		#printing sequence identifier
 
+		interframe_maxORF = 0
+		interframe_maxORF_positions = []
+		#the above will store the length and position of the longest ORF in all frames in the sequence
 		for frame in seq_dict[seq_identifier]:
 			print(frame + "\n")
 			#printing frame number
+			print(*seq_dict[seq_identifier][frame])
+			#printing all the orf start and stop positions list
 
-#			print(*seq_dict[seq_identifier][frame])
 			intraframe_maxORF = 0
 			intraframe_maxORF_positions = []
+			#the above will store the length and position of the longest ORF detected in the frame
 			for ORF_index in range(len(seq_dict[seq_identifier][frame])):
 
 				ORF_length = seq_dict[seq_identifier][frame][ORF_index][1]\
 						- seq_dict[seq_identifier][frame][ORF_index][0]
+				#calculating the ORF length 
+
 
 				if ORF_length > intraframe_maxORF:
 					intraframe_maxORF = ORF_length
 					intraframe_maxORF_positions\
 					 = seq_dict[seq_identifier][frame][ORF_index]
+				#finding the lengths and positions of the intra-frame longest ORF
+			try:
+				print("The longest ORF in this frame is of length %d and is between %s and %s.\n"\
+					 %(intraframe_maxORF, str(intraframe_maxORF_positions[0]),\
+					str(intraframe_maxORF_positions[1])))
+			except:
+				print("No ORFs detected in this frame.\n")
+			#printing the length and positions of the intra-frame longest ORF
 
-				print(*seq_dict[seq_identifier][frame])
-				print("The longest ORF is of length %d and has start and stop positions "\
-					 + intraframe_maxORF_positions\
-					%(intraframe_maxORF))
 
-			print("\n")
+			if intraframe_maxORF > interframe_maxORF:
+				interframe_maxORF = intraframe_maxORF
+				interframe_maxORF_positions = intraframe_maxORF_positions
+				maxORF_frame_no = frame 
+			#finding the length, positions and frame no. of the inter-frame longest ORF
+		try:
+			print("The longest ORF is of length %d detected in %s and is between %s and %s.\n\n"\
+					 %(interframe_maxORF, maxORF_frame_no, str(interframe_maxORF_positions[0]),\
+					str(interframe_maxORF_positions[1])))
+		except:
+			print("No ORFs detected in this sequence.\n\n")
+		#printing the length, frame no. and position of the longest ORF in the sequence in all frames
 
 
-#	for keys, values in seq_dict.items():
-#		print(keys, values, "\n")
+		if interframe_maxORF > intersequence_maxORF:
+				intersequence_maxORF = interframe_maxORF
+				intersequence_maxORF_positions = interframe_maxORF_positions
+				maxORF_seq_frame = maxORF_frame_no
+				maxORF_seq = seq_identifier
+		#finding the length, sequence, frame no. and positions of the longest ORF in the file 
+	try:
+		print("The longest ORF is of length %d detected in sequence %s, %s and is between %s and %s."\
+					 %(intersequence_maxORF, maxORF_seq, maxORF_seq_frame,\
+					 str(intersequence_maxORF_positions[0]), str(interframe_maxORF_positions[1])))
+	except:
+		print("No ORFs detected in this sequence.\n")
+	#printing the length, sequence no., frame no. and position of the longest ORF in the sequence
+
 
 	return 0
 
-orf_compare(fasta_ORFs(fasta_string))
+#Test orf_compare
 
+orf_compare(fasta_ORFs(fasta_string))

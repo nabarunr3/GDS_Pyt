@@ -1,0 +1,540 @@
+
+25 sequences added from file.
+
+gi|142022655|gb|EQ086233.1|43 990
+gi|142022655|gb|EQ086233.1|160 724
+gi|142022655|gb|EQ086233.1|41 3080
+gi|142022655|gb|EQ086233.1|221 2863
+gi|142022655|gb|EQ086233.1|294 3832
+gi|142022655|gb|EQ086233.1|323 4805
+gi|142022655|gb|EQ086233.1|564 1663
+gi|142022655|gb|EQ086233.1|521 512
+gi|142022655|gb|EQ086233.1|455 691
+gi|142022655|gb|EQ086233.1|229 3072
+gi|142022655|gb|EQ086233.1|422 1801
+gi|142022655|gb|EQ086233.1|384 3603
+gi|142022655|gb|EQ086233.1|280 2478
+gi|142022655|gb|EQ086233.1|158 1608
+gi|142022655|gb|EQ086233.1|59 4745
+gi|142022655|gb|EQ086233.1|319 1810
+gi|142022655|gb|EQ086233.1|438 3424
+gi|142022655|gb|EQ086233.1|210 1451
+gi|142022655|gb|EQ086233.1|237 3276
+gi|142022655|gb|EQ086233.1|507 2124
+gi|142022655|gb|EQ086233.1|350 1712
+gi|142022655|gb|EQ086233.1|245 1325
+gi|142022655|gb|EQ086233.1|279 1189
+gi|142022655|gb|EQ086233.1|378 555
+gi|142022655|gb|EQ086233.1|101 2449
+
+1 entry(s) with maximum length 4805 :
+
+gi|142022655|gb|EQ086233.1|323 4805
+
+1 entry(s) with minimum length 512 :
+
+gi|142022655|gb|EQ086233.1|521 512
+
+25 sequences added from file.
+
+gi|142022655|gb|EQ086233.1|43
+
+Frame1
+
+[73, 133] [166, 199] [217, 250] [232, 250] [367, 577] [454, 577] [457, 577] [502, 577] [550, 577] [691, 817]
+The longest ORF in this frame is of length 210 and is between 367 and 577.
+
+Frame2
+
+[416, 452]
+The longest ORF in this frame is of length 36 and is between 416 and 452.
+
+Frame3
+
+[444, 627]
+The longest ORF in this frame is of length 183 and is between 444 and 627.
+
+The longest ORF is of length 210 detected in Frame1 and is between 367 and 577.
+
+
+gi|142022655|gb|EQ086233.1|160
+
+Frame1
+
+[136, 442] [199, 442] [301, 442] [466, 562] [535, 562]
+The longest ORF in this frame is of length 306 and is between 136 and 442.
+
+Frame2
+
+[107, 467]
+The longest ORF in this frame is of length 360 and is between 107 and 467.
+
+Frame3
+
+[75, 237] [123, 237] [129, 237] [222, 237] [351, 492] [453, 492] [660, 708]
+The longest ORF in this frame is of length 162 and is between 75 and 237.
+
+The longest ORF is of length 360 detected in Frame2 and is between 107 and 467.
+
+
+gi|142022655|gb|EQ086233.1|41
+
+Frame1
+
+[559, 862] [1039, 1153] [1102, 1153] [1654, 1729] [1702, 1729] [1804, 1930] [1966, 2077] [2131, 2302] [2323, 2362] [2515, 2623] [2554, 2623] [2608, 2623] [2617, 2623] [2635, 2671] [2665, 2671] [2713, 2818] [2794, 2818]
+The longest ORF in this frame is of length 303 and is between 559 and 862.
+
+Frame2
+
+[158, 902] [188, 902] [209, 902] [281, 902] [293, 902] [326, 902] [383, 902] [929, 1040] [1952, 1967] [2009, 2768] [2474, 2768]
+The longest ORF in this frame is of length 759 and is between 2009 and 2768.
+
+Frame3
+
+[75, 117] [147, 159] [351, 501] [435, 501] [486, 501] [936, 978] [1152, 1185] [1170, 1185] [1194, 2109] [1461, 2109] [1494, 2109] [1599, 2109] [1824, 2109] [2190, 3072] [2238, 3072] [2367, 3072] [2523, 3072] [2529, 3072] [2622, 3072] [2670, 3072] [2775, 3072] [2817, 3072] [2985, 3072]
+The longest ORF in this frame is of length 915 and is between 1194 and 2109.
+
+The longest ORF is of length 915 detected in Frame3 and is between 1194 and 2109.
+
+
+gi|142022655|gb|EQ086233.1|221
+
+Frame1
+
+[118, 139] [637, 730] [727, 730] [802, 856] [880, 1039] [985, 1039] [1246, 1507] [1600, 1762]
+The longest ORF in this frame is of length 261 and is between 1246 and 1507.
+
+Frame2
+
+[92, 179] [302, 395] [413, 452] [683, 800] [710, 800] [914, 926] [1103, 1331] [1319, 1331] [1535, 1664] [1580, 1664] [1772, 2363] [2312, 2363]
+The longest ORF in this frame is of length 591 and is between 1772 and 2363.
+
+Frame3
+
+[63, 69] [162, 165] [183, 225] [429, 555] [1200, 1293] [1305, 1320] [2268, 2382] [2271, 2382] [2388, 2709] [2430, 2709] [2463, 2709] [2499, 2709] [2694, 2709] [2763, 2802]
+The longest ORF in this frame is of length 321 and is between 2388 and 2709.
+
+The longest ORF is of length 591 detected in Frame2 and is between 1772 and 2363.
+
+
+gi|142022655|gb|EQ086233.1|294
+
+Frame1
+
+[538, 544] [688, 862] [715, 862] [754, 862] [823, 862] [1057, 1096] [1207, 1228] [1276, 1504] [1579, 1720] [1723, 1762] [1735, 1762] [2203, 2209] [2422, 2839] [2512, 2839] [2968, 2980] [3058, 3274] [3190, 3274] [3334, 3589]
+The longest ORF in this frame is of length 417 and is between 2422 and 2839.
+
+Frame2
+
+[80, 443] [116, 443] [683, 689] [914, 968] [1544, 1580] [1610, 1628] [2099, 2786] [2870, 3059] [3215, 3341] [3500, 3707] [3593, 3707]
+The longest ORF in this frame is of length 687 and is between 2099 and 2786.
+
+Frame3
+
+[141, 1746] [1098, 1746] [1506, 1746] [1554, 1746] [1902, 2061] [2160, 2388] [2208, 2388] [2277, 2388] [2736, 3633] [2838, 3633] [2898, 3633] [2907, 3633] [3090, 3633] [3255, 3633] [3438, 3633]
+The longest ORF in this frame is of length 1605 and is between 141 and 1746.
+
+The longest ORF is of length 1605 detected in Frame3 and is between 141 and 1746.
+
+
+gi|142022655|gb|EQ086233.1|323
+
+Frame1
+
+[97, 1567] [838, 1567] [1183, 1567] [2065, 2095] [2257, 2341] [2311, 2341] [2824, 4507] [2959, 4507] [3226, 4507] [3691, 4507] [3982, 4507] [4198, 4507] [4420, 4507]
+The longest ORF in this frame is of length 1683 and is between 2824 and 4507.
+
+Frame2
+
+[65, 1433] [380, 1433] [479, 1433] [503, 1433] [548, 1433] [1004, 1433] [1127, 1433] [1244, 1433] [1358, 1433] [1370, 1433] [3068, 3767] [3098, 3767] [3182, 3767] [3239, 3767] [3356, 3767] [3968, 3983] [4136, 4166] [4190, 4217] [4328, 4466] [4484, 4553]
+The longest ORF in this frame is of length 1368 and is between 65 and 1433.
+
+Frame3
+
+[51, 66] [1008, 1269] [1476, 3069] [2316, 3069] [2343, 3069] [2352, 3069] [2475, 3069] [2487, 3069] [2652, 3069] [2943, 3069] [2967, 3069] [3189, 3231] [3429, 3546] [3504, 3546] [3615, 4191]
+The longest ORF in this frame is of length 1593 and is between 1476 and 3069.
+
+The longest ORF is of length 1683 detected in Frame1 and is between 2824 and 4507.
+
+
+gi|142022655|gb|EQ086233.1|564
+
+Frame1
+
+[10, 28] [31, 187] [136, 187] [148, 187] [454, 493] [466, 493] [487, 493] [724, 1003] [730, 1003] [742, 1003] [805, 1003] [853, 1003] [976, 1003] [1138, 1162]
+The longest ORF in this frame is of length 279 and is between 724 and 1003.
+
+Frame2
+
+
+No ORFs detected in this frame.
+
+Frame3
+
+[825, 1329] [963, 1329] [1167, 1329] [1200, 1329]
+The longest ORF in this frame is of length 504 and is between 825 and 1329.
+
+The longest ORF is of length 504 detected in Frame3 and is between 825 and 1329.
+
+
+gi|142022655|gb|EQ086233.1|521
+
+Frame1
+
+
+No ORFs detected in this frame.
+
+Frame2
+
+
+No ORFs detected in this frame.
+
+Frame3
+
+[126, 282] [177, 282] [465, 471]
+The longest ORF in this frame is of length 156 and is between 126 and 282.
+
+The longest ORF is of length 156 detected in Frame3 and is between 126 and 282.
+
+
+gi|142022655|gb|EQ086233.1|455
+
+Frame1
+
+[241, 277]
+The longest ORF in this frame is of length 36 and is between 241 and 277.
+
+Frame2
+
+[86, 635] [344, 635]
+The longest ORF in this frame is of length 549 and is between 86 and 635.
+
+Frame3
+
+[153, 204]
+The longest ORF in this frame is of length 51 and is between 153 and 204.
+
+The longest ORF is of length 549 detected in Frame2 and is between 86 and 635.
+
+
+gi|142022655|gb|EQ086233.1|229
+
+Frame1
+
+[1522, 1951] [1936, 1951] [1960, 2683] [2056, 2683] [2095, 2683] [2188, 2683] [2215, 2683] [2254, 2683] [2302, 2683] [2362, 2683] [2401, 2683] [2407, 2683] [2416, 2683] [2482, 2683] [2527, 2683] [2539, 2683] [2551, 2683] [2620, 2683] [2632, 2683] [2686, 2833] [2779, 2833] [2890, 3067] [2938, 3067] [2944, 3067] [2974, 3067]
+The longest ORF in this frame is of length 723 and is between 1960 and 2683.
+
+Frame2
+
+[125, 1433] [713, 1433] [1793, 1805] [1877, 1961] [1928, 1961] [2297, 2429] [2318, 2429] [2351, 2429]
+The longest ORF in this frame is of length 1308 and is between 125 and 1433.
+
+Frame3
+
+[276, 423] [804, 1107] [861, 1107] [1296, 1446] [1503, 1617] [1692, 1773]
+The longest ORF in this frame is of length 303 and is between 804 and 1107.
+
+The longest ORF is of length 1308 detected in Frame2 and is between 125 and 1433.
+
+
+gi|142022655|gb|EQ086233.1|422
+
+Frame1
+
+[43, 118] [103, 118] [148, 214] [616, 670] [640, 670] [730, 799] [775, 799] [787, 799] [847, 865] [898, 931] [1066, 1147] [1129, 1147]
+The longest ORF in this frame is of length 81 and is between 1066 and 1147.
+
+Frame2
+
+[881, 887] [1016, 1046] [1112, 1268] [1142, 1268] [1436, 1457] [1628, 1733] [1715, 1733]
+The longest ORF in this frame is of length 156 and is between 1112 and 1268.
+
+Frame3
+
+[216, 852] [240, 852] [300, 852] [594, 852] [672, 852] [702, 852] [930, 1017] [981, 1017]
+The longest ORF in this frame is of length 636 and is between 216 and 852.
+
+The longest ORF is of length 636 detected in Frame3 and is between 216 and 852.
+
+
+gi|142022655|gb|EQ086233.1|384
+
+Frame1
+
+[631, 883] [955, 1348] [1285, 1348] [1390, 1408] [1642, 1660] [2011, 2050] [2098, 2119] [2137, 2719] [2179, 2719] [2557, 2719] [2671, 2719] [2728, 3052] [2764, 3052] [2944, 3052] [2956, 3052]
+The longest ORF in this frame is of length 582 and is between 2137 and 2719.
+
+Frame2
+
+[224, 458] [299, 458] [338, 458] [353, 458] [374, 458] [410, 458] [524, 605] [728, 836] [800, 836] [824, 836] [869, 992] [899, 992] [959, 992] [980, 992] [1001, 1019] [1154, 1640] [1418, 1640] [1454, 1640] [2057, 2108] [2147, 2180] [2363, 2369] [2513, 2672] [2774, 2945] [2882, 2945] [3134, 3416] [3182, 3416] [3206, 3416]
+The longest ORF in this frame is of length 486 and is between 1154 and 1640.
+
+Frame3
+
+[12, 57] [63, 225] [153, 225] [159, 225] [432, 525] [702, 825] [882, 960] [1347, 2064] [1536, 2064] [1542, 2064] [1563, 2064] [1572, 2064] [1632, 2064] [1650, 2064] [1665, 2064] [2034, 2064] [2088, 2127] [2151, 2250] [2196, 2250] [2229, 2250] [2415, 2490] [3309, 3420]
+The longest ORF in this frame is of length 717 and is between 1347 and 2064.
+
+The longest ORF is of length 717 detected in Frame3 and is between 1347 and 2064.
+
+
+gi|142022655|gb|EQ086233.1|280
+
+Frame1
+
+[220, 226] [718, 754] [961, 1057] [1177, 1441] [2155, 2194] [2161, 2194] [2200, 2212]
+The longest ORF in this frame is of length 264 and is between 1177 and 1441.
+
+Frame2
+
+[89, 221] [1427, 1715] [1505, 1715] [1703, 1715] [1781, 1856] [1928, 2000]
+The longest ORF in this frame is of length 288 and is between 1427 and 1715.
+
+Frame3
+
+[123, 291] [507, 609] [528, 609] [531, 609] [783, 804] [951, 981] [1023, 1218] [1170, 1218] [1233, 1242] [1284, 1356] [1443, 1506] [1635, 1701] [1680, 1701] [2007, 2208] [2106, 2208]
+The longest ORF in this frame is of length 201 and is between 2007 and 2208.
+
+The longest ORF is of length 288 detected in Frame2 and is between 1427 and 1715.
+
+
+gi|142022655|gb|EQ086233.1|158
+
+Frame1
+
+[118, 220] [172, 220] [505, 526] [568, 574] [673, 676] [700, 826] [940, 1033] [1159, 1210] [1345, 1390] [1435, 1513] [1444, 1513] [1522, 1603]
+The longest ORF in this frame is of length 126 and is between 700 and 826.
+
+Frame2
+
+[65, 95] [146, 497] [1040, 1523]
+The longest ORF in this frame is of length 483 and is between 1040 and 1523.
+
+Frame3
+
+[150, 1365] [321, 1365] [486, 1365] [627, 1365] [651, 1365] [681, 1365] [750, 1365] [867, 1365] [924, 1365] [933, 1365] [1053, 1365] [1134, 1365] [1155, 1365]
+The longest ORF in this frame is of length 1215 and is between 150 and 1365.
+
+The longest ORF is of length 1215 detected in Frame3 and is between 150 and 1365.
+
+
+gi|142022655|gb|EQ086233.1|59
+
+Frame1
+
+[31, 739] [856, 898] [1042, 1243] [1114, 1243] [1240, 1243] [1282, 1327] [1330, 1528] [1558, 1831] [1861, 2050] [2071, 2314] [2467, 2833] [2491, 2833] [2821, 2833] [2932, 3325] [2974, 3325] [3043, 3325] [3154, 3325] [3412, 3460] [3592, 4696]
+The longest ORF in this frame is of length 1104 and is between 3592 and 4696.
+
+Frame2
+
+[320, 452] [356, 452] [419, 452] [461, 857] [656, 857] [668, 857] [1484, 2399] [1595, 2399] [2213, 2399] [2594, 2822] [2846, 2933] [2927, 2933] [3482, 3545] [3605, 4553] [3662, 4553] [4124, 4553] [4157, 4553] [4163, 4553] [4352, 4553] [4445, 4553]
+The longest ORF in this frame is of length 948 and is between 3605 and 4553.
+
+Frame3
+
+[972, 1911] [1161, 1911] [1326, 1911] [1437, 1911] [1677, 1911] [1740, 1911] [3312, 3342] [3351, 3567] [3465, 3567] [3531, 3567] [4149, 4284] [4272, 4284] [4416, 4443]
+The longest ORF in this frame is of length 939 and is between 972 and 1911.
+
+The longest ORF is of length 1104 detected in Frame1 and is between 3592 and 4696.
+
+
+gi|142022655|gb|EQ086233.1|319
+
+Frame1
+
+[481, 634] [1606, 1633]
+The longest ORF in this frame is of length 153 and is between 481 and 634.
+
+Frame2
+
+[971, 1292] [992, 1292] [1226, 1292] [1475, 1562]
+The longest ORF in this frame is of length 321 and is between 971 and 1292.
+
+Frame3
+
+[66, 75] [219, 753] [318, 753] [465, 753] [648, 753] [711, 753] [810, 960] [1161, 1446] [1167, 1446]
+The longest ORF in this frame is of length 534 and is between 219 and 753.
+
+The longest ORF is of length 534 detected in Frame3 and is between 219 and 753.
+
+
+gi|142022655|gb|EQ086233.1|438
+
+Frame1
+
+[586, 664] [751, 964] [817, 964] [925, 964] [1003, 1066] [1099, 1159] [1168, 1342] [1291, 1342] [1366, 1495] [1990, 2128] [2263, 2356] [2272, 2356] [2302, 2356] [2311, 2356] [2548, 2599] [2758, 2803] [3127, 3343]
+The longest ORF in this frame is of length 216 and is between 3127 and 3343.
+
+Frame2
+
+[68, 113] [101, 113] [143, 437] [152, 437] [173, 437] [311, 437] [1106, 1136] [1652, 1697] [1712, 1733] [1739, 2036] [1769, 2036] [2531, 2549]
+The longest ORF in this frame is of length 297 and is between 1739 and 2036.
+
+Frame3
+
+[138, 144] [390, 393] [432, 609] [603, 609] [627, 645] [663, 822] [678, 822] [684, 822] [987, 1461] [1065, 1461] [1302, 1461] [1485, 1488] [1605, 1665] [2883, 2958] [3069, 3087]
+The longest ORF in this frame is of length 474 and is between 987 and 1461.
+
+The longest ORF is of length 474 detected in Frame3 and is between 987 and 1461.
+
+
+gi|142022655|gb|EQ086233.1|210
+
+Frame1
+
+[220, 349] [247, 349] [478, 886] [820, 886] [1372, 1402]
+The longest ORF in this frame is of length 408 and is between 478 and 886.
+
+Frame2
+
+[410, 971] [575, 971] [824, 971] [851, 971] [1019, 1190] [1178, 1190] [1214, 1373]
+The longest ORF in this frame is of length 561 and is between 410 and 971.
+
+Frame3
+
+[360, 483] [960, 1032]
+The longest ORF in this frame is of length 123 and is between 360 and 483.
+
+The longest ORF is of length 561 detected in Frame2 and is between 410 and 971.
+
+
+gi|142022655|gb|EQ086233.1|237
+
+Frame1
+
+[130, 136] [610, 640] [772, 778] [1027, 1198] [1249, 1267] [1912, 1939] [1924, 1939] [2479, 2650] [2557, 2650] [2764, 2815] [2788, 2815] [2797, 2815] [2872, 2899] [2881, 2899] [3019, 3115]
+The longest ORF in this frame is of length 171 and is between 1027 and 1198.
+
+Frame2
+
+[794, 1010] [971, 1010] [1076, 1184] [1127, 1184] [1574, 1655] [1796, 1871] [1955, 1979] [2126, 2276] [2174, 2276] [2255, 2276] [2714, 2774] [2843, 2870] [3023, 3047]
+The longest ORF in this frame is of length 216 and is between 794 and 1010.
+
+Frame3
+
+[192, 207] [573, 627] [846, 972] [1116, 1128] [1386, 1416] [1389, 1416] [1635, 1647] [2133, 2316] [2214, 2316] [2322, 2373] [2709, 2718]
+The longest ORF in this frame is of length 183 and is between 2133 and 2316.
+
+The longest ORF is of length 216 detected in Frame2 and is between 794 and 1010.
+
+
+gi|142022655|gb|EQ086233.1|507
+
+Frame1
+
+[184, 229] [391, 451] [412, 451] [631, 697] [901, 946] [1183, 1222] [1348, 1366] [1738, 2005]
+The longest ORF in this frame is of length 267 and is between 1738 and 2005.
+
+Frame2
+
+[23, 248] [167, 248] [251, 338] [563, 1283] [1403, 1625] [1667, 1685] [1670, 1685] [1703, 1733] [1892, 2012] [2018, 2045]
+The longest ORF in this frame is of length 720 and is between 563 and 1283.
+
+Frame3
+
+[135, 252] [150, 252] [171, 252] [261, 531] [465, 531] [495, 531] [585, 618] [639, 813] [816, 876] [888, 909] [930, 1668] [954, 1668] [1014, 1668] [1143, 1668] [1221, 1668] [1266, 1668] [1368, 1668]
+The longest ORF in this frame is of length 738 and is between 930 and 1668.
+
+The longest ORF is of length 738 detected in Frame3 and is between 930 and 1668.
+
+
+gi|142022655|gb|EQ086233.1|350
+
+Frame1
+
+[4, 169] [154, 169] [628, 634] [736, 763] [784, 808] [961, 991] [1243, 1411]
+The longest ORF in this frame is of length 168 and is between 1243 and 1411.
+
+Frame2
+
+[290, 296] [365, 1040]
+The longest ORF in this frame is of length 675 and is between 365 and 1040.
+
+Frame3
+
+[477, 654] [861, 1278] [918, 1278] [1089, 1278] [1203, 1278] [1254, 1278] [1449, 1506] [1515, 1671] [1539, 1671]
+The longest ORF in this frame is of length 417 and is between 861 and 1278.
+
+The longest ORF is of length 675 detected in Frame2 and is between 365 and 1040.
+
+
+gi|142022655|gb|EQ086233.1|245
+
+Frame1
+
+
+No ORFs detected in this frame.
+
+Frame2
+
+[239, 254] [308, 782] [356, 782] [560, 782] [920, 1289] [1130, 1289] [1166, 1289] [1262, 1289]
+The longest ORF in this frame is of length 474 and is between 308 and 782.
+
+Frame3
+
+[606, 1239] [618, 1239] [969, 1239] [975, 1239] [1017, 1239] [1140, 1239]
+The longest ORF in this frame is of length 633 and is between 606 and 1239.
+
+The longest ORF is of length 633 detected in Frame3 and is between 606 and 1239.
+
+
+gi|142022655|gb|EQ086233.1|279
+
+Frame1
+
+
+No ORFs detected in this frame.
+
+Frame2
+
+[272, 287] [413, 563] [938, 968]
+The longest ORF in this frame is of length 150 and is between 413 and 563.
+
+Frame3
+
+
+No ORFs detected in this frame.
+
+The longest ORF is of length 150 detected in Frame2 and is between 413 and 563.
+
+
+gi|142022655|gb|EQ086233.1|378
+
+Frame1
+
+[286, 394]
+The longest ORF in this frame is of length 108 and is between 286 and 394.
+
+Frame2
+
+[2, 533] [146, 533] [335, 533]
+The longest ORF in this frame is of length 531 and is between 2 and 533.
+
+Frame3
+
+[69, 102] [108, 144] [120, 144] [150, 291] [324, 447] [348, 447] [360, 447] [420, 447]
+The longest ORF in this frame is of length 141 and is between 150 and 291.
+
+The longest ORF is of length 531 detected in Frame2 and is between 2 and 533.
+
+
+gi|142022655|gb|EQ086233.1|101
+
+Frame1
+
+[67, 280] [79, 280] [121, 280] [196, 280] [199, 280] [256, 280] [418, 439] [625, 958] [856, 958] [883, 958] [889, 958] [922, 958] [931, 958] [1021, 1129] [1057, 1129] [1633, 2269] [1810, 2269] [1876, 2269] [2185, 2269]
+The longest ORF in this frame is of length 636 and is between 1633 and 2269.
+
+Frame2
+
+[26, 35] [602, 626] [1265, 1298] [1346, 1580] [1688, 1808] [1709, 1808] [1742, 1808] [1793, 1808] [1823, 1841] [1826, 1841] [1868, 2432] [1907, 2432] [2072, 2432] [2201, 2432] [2306, 2432] [2312, 2432]
+The longest ORF in this frame is of length 564 and is between 1868 and 2432.
+
+Frame3
+
+[870, 1320] [1128, 1320] [1248, 1320] [1302, 1320]
+The longest ORF in this frame is of length 450 and is between 870 and 1320.
+
+The longest ORF is of length 636 detected in Frame1 and is between 1633 and 2269.
+
+
+The longest ORF is of length 1683 detected in sequence gi|142022655|gb|EQ086233.1|323, Frame1 and is between 2824 and 2269.
