@@ -54,7 +54,7 @@ Frame3
 [444, 627]
 The longest ORF in this frame is of length 183 and is between 444 and 627.
 
-The longest ORF is of length 210 detected in Frame1 and is between 367 and 577.
+	The longest ORF is of length 210 detected in Frame1 and is between 367 and 577.
 
 
 gi|142022655|gb|EQ086233.1|160
@@ -74,7 +74,7 @@ Frame3
 [75, 237] [123, 237] [129, 237] [222, 237] [351, 492] [453, 492] [660, 708]
 The longest ORF in this frame is of length 162 and is between 75 and 237.
 
-The longest ORF is of length 360 detected in Frame2 and is between 107 and 467.
+	The longest ORF is of length 360 detected in Frame2 and is between 107 and 467.
 
 
 gi|142022655|gb|EQ086233.1|41
@@ -94,7 +94,7 @@ Frame3
 [75, 117] [147, 159] [351, 501] [435, 501] [486, 501] [936, 978] [1152, 1185] [1170, 1185] [1194, 2109] [1461, 2109] [1494, 2109] [1599, 2109] [1824, 2109] [2190, 3072] [2238, 3072] [2367, 3072] [2523, 3072] [2529, 3072] [2622, 3072] [2670, 3072] [2775, 3072] [2817, 3072] [2985, 3072]
 The longest ORF in this frame is of length 915 and is between 1194 and 2109.
 
-The longest ORF is of length 915 detected in Frame3 and is between 1194 and 2109.
+	The longest ORF is of length 915 detected in Frame3 and is between 1194 and 2109.
 
 
 gi|142022655|gb|EQ086233.1|221
@@ -114,7 +114,7 @@ Frame3
 [63, 69] [162, 165] [183, 225] [429, 555] [1200, 1293] [1305, 1320] [2268, 2382] [2271, 2382] [2388, 2709] [2430, 2709] [2463, 2709] [2499, 2709] [2694, 2709] [2763, 2802]
 The longest ORF in this frame is of length 321 and is between 2388 and 2709.
 
-The longest ORF is of length 591 detected in Frame2 and is between 1772 and 2363.
+	The longest ORF is of length 591 detected in Frame2 and is between 1772 and 2363.
 
 
 gi|142022655|gb|EQ086233.1|294
@@ -134,7 +134,7 @@ Frame3
 [141, 1746] [1098, 1746] [1506, 1746] [1554, 1746] [1902, 2061] [2160, 2388] [2208, 2388] [2277, 2388] [2736, 3633] [2838, 3633] [2898, 3633] [2907, 3633] [3090, 3633] [3255, 3633] [3438, 3633]
 The longest ORF in this frame is of length 1605 and is between 141 and 1746.
 
-The longest ORF is of length 1605 detected in Frame3 and is between 141 and 1746.
+	The longest ORF is of length 1605 detected in Frame3 and is between 141 and 1746.
 
 
 gi|142022655|gb|EQ086233.1|323
@@ -154,7 +154,7 @@ Frame3
 [51, 66] [1008, 1269] [1476, 3069] [2316, 3069] [2343, 3069] [2352, 3069] [2475, 3069] [2487, 3069] [2652, 3069] [2943, 3069] [2967, 3069] [3189, 3231] [3429, 3546] [3504, 3546] [3615, 4191]
 The longest ORF in this frame is of length 1593 and is between 1476 and 3069.
 
-The longest ORF is of length 1683 detected in Frame1 and is between 2824 and 4507.
+	The longest ORF is of length 1683 detected in Frame1 and is between 2824 and 4507.
 
 
 gi|142022655|gb|EQ086233.1|564
@@ -174,7 +174,7 @@ Frame3
 [825, 1329] [963, 1329] [1167, 1329] [1200, 1329]
 The longest ORF in this frame is of length 504 and is between 825 and 1329.
 
-The longest ORF is of length 504 detected in Frame3 and is between 825 and 1329.
+	The longest ORF is of length 504 detected in Frame3 and is between 825 and 1329.
 
 
 gi|142022655|gb|EQ086233.1|521
@@ -194,7 +194,7 @@ Frame3
 [126, 282] [177, 282] [465, 471]
 The longest ORF in this frame is of length 156 and is between 126 and 282.
 
-The longest ORF is of length 156 detected in Frame3 and is between 126 and 282.
+	The longest ORF is of length 156 detected in Frame3 and is between 126 and 282.
 
 
 gi|142022655|gb|EQ086233.1|455
@@ -214,7 +214,7 @@ Frame3
 [153, 204]
 The longest ORF in this frame is of length 51 and is between 153 and 204.
 
-The longest ORF is of length 549 detected in Frame2 and is between 86 and 635.
+	The longest ORF is of length 549 detected in Frame2 and is between 86 and 635.
 
 
 gi|142022655|gb|EQ086233.1|229
@@ -234,7 +234,7 @@ Frame3
 [276, 423] [804, 1107] [861, 1107] [1296, 1446] [1503, 1617] [1692, 1773]
 The longest ORF in this frame is of length 303 and is between 804 and 1107.
 
-The longest ORF is of length 1308 detected in Frame2 and is between 125 and 1433.
+	The longest ORF is of length 1308 detected in Frame2 and is between 125 and 1433.
 
 
 gi|142022655|gb|EQ086233.1|422
@@ -254,7 +254,7 @@ Frame3
 [216, 852] [240, 852] [300, 852] [594, 852] [672, 852] [702, 852] [930, 1017] [981, 1017]
 The longest ORF in this frame is of length 636 and is between 216 and 852.
 
-The longest ORF is of length 636 detected in Frame3 and is between 216 and 852.
+	The longest ORF is of length 636 detected in Frame3 and is between 216 and 852.
 
 
 gi|142022655|gb|EQ086233.1|384
@@ -274,7 +274,7 @@ Frame3
 [12, 57] [63, 225] [153, 225] [159, 225] [432, 525] [702, 825] [882, 960] [1347, 2064] [1536, 2064] [1542, 2064] [1563, 2064] [1572, 2064] [1632, 2064] [1650, 2064] [1665, 2064] [2034, 2064] [2088, 2127] [2151, 2250] [2196, 2250] [2229, 2250] [2415, 2490] [3309, 3420]
 The longest ORF in this frame is of length 717 and is between 1347 and 2064.
 
-The longest ORF is of length 717 detected in Frame3 and is between 1347 and 2064.
+	The longest ORF is of length 717 detected in Frame3 and is between 1347 and 2064.
 
 
 gi|142022655|gb|EQ086233.1|280
@@ -294,7 +294,7 @@ Frame3
 [123, 291] [507, 609] [528, 609] [531, 609] [783, 804] [951, 981] [1023, 1218] [1170, 1218] [1233, 1242] [1284, 1356] [1443, 1506] [1635, 1701] [1680, 1701] [2007, 2208] [2106, 2208]
 The longest ORF in this frame is of length 201 and is between 2007 and 2208.
 
-The longest ORF is of length 288 detected in Frame2 and is between 1427 and 1715.
+	The longest ORF is of length 288 detected in Frame2 and is between 1427 and 1715.
 
 
 gi|142022655|gb|EQ086233.1|158
@@ -314,7 +314,7 @@ Frame3
 [150, 1365] [321, 1365] [486, 1365] [627, 1365] [651, 1365] [681, 1365] [750, 1365] [867, 1365] [924, 1365] [933, 1365] [1053, 1365] [1134, 1365] [1155, 1365]
 The longest ORF in this frame is of length 1215 and is between 150 and 1365.
 
-The longest ORF is of length 1215 detected in Frame3 and is between 150 and 1365.
+	The longest ORF is of length 1215 detected in Frame3 and is between 150 and 1365.
 
 
 gi|142022655|gb|EQ086233.1|59
@@ -334,7 +334,7 @@ Frame3
 [972, 1911] [1161, 1911] [1326, 1911] [1437, 1911] [1677, 1911] [1740, 1911] [3312, 3342] [3351, 3567] [3465, 3567] [3531, 3567] [4149, 4284] [4272, 4284] [4416, 4443]
 The longest ORF in this frame is of length 939 and is between 972 and 1911.
 
-The longest ORF is of length 1104 detected in Frame1 and is between 3592 and 4696.
+	The longest ORF is of length 1104 detected in Frame1 and is between 3592 and 4696.
 
 
 gi|142022655|gb|EQ086233.1|319
@@ -354,7 +354,7 @@ Frame3
 [66, 75] [219, 753] [318, 753] [465, 753] [648, 753] [711, 753] [810, 960] [1161, 1446] [1167, 1446]
 The longest ORF in this frame is of length 534 and is between 219 and 753.
 
-The longest ORF is of length 534 detected in Frame3 and is between 219 and 753.
+	The longest ORF is of length 534 detected in Frame3 and is between 219 and 753.
 
 
 gi|142022655|gb|EQ086233.1|438
@@ -374,7 +374,7 @@ Frame3
 [138, 144] [390, 393] [432, 609] [603, 609] [627, 645] [663, 822] [678, 822] [684, 822] [987, 1461] [1065, 1461] [1302, 1461] [1485, 1488] [1605, 1665] [2883, 2958] [3069, 3087]
 The longest ORF in this frame is of length 474 and is between 987 and 1461.
 
-The longest ORF is of length 474 detected in Frame3 and is between 987 and 1461.
+	The longest ORF is of length 474 detected in Frame3 and is between 987 and 1461.
 
 
 gi|142022655|gb|EQ086233.1|210
@@ -394,7 +394,7 @@ Frame3
 [360, 483] [960, 1032]
 The longest ORF in this frame is of length 123 and is between 360 and 483.
 
-The longest ORF is of length 561 detected in Frame2 and is between 410 and 971.
+	The longest ORF is of length 561 detected in Frame2 and is between 410 and 971.
 
 
 gi|142022655|gb|EQ086233.1|237
@@ -414,7 +414,7 @@ Frame3
 [192, 207] [573, 627] [846, 972] [1116, 1128] [1386, 1416] [1389, 1416] [1635, 1647] [2133, 2316] [2214, 2316] [2322, 2373] [2709, 2718]
 The longest ORF in this frame is of length 183 and is between 2133 and 2316.
 
-The longest ORF is of length 216 detected in Frame2 and is between 794 and 1010.
+	The longest ORF is of length 216 detected in Frame2 and is between 794 and 1010.
 
 
 gi|142022655|gb|EQ086233.1|507
@@ -434,7 +434,7 @@ Frame3
 [135, 252] [150, 252] [171, 252] [261, 531] [465, 531] [495, 531] [585, 618] [639, 813] [816, 876] [888, 909] [930, 1668] [954, 1668] [1014, 1668] [1143, 1668] [1221, 1668] [1266, 1668] [1368, 1668]
 The longest ORF in this frame is of length 738 and is between 930 and 1668.
 
-The longest ORF is of length 738 detected in Frame3 and is between 930 and 1668.
+	The longest ORF is of length 738 detected in Frame3 and is between 930 and 1668.
 
 
 gi|142022655|gb|EQ086233.1|350
@@ -454,7 +454,7 @@ Frame3
 [477, 654] [861, 1278] [918, 1278] [1089, 1278] [1203, 1278] [1254, 1278] [1449, 1506] [1515, 1671] [1539, 1671]
 The longest ORF in this frame is of length 417 and is between 861 and 1278.
 
-The longest ORF is of length 675 detected in Frame2 and is between 365 and 1040.
+	The longest ORF is of length 675 detected in Frame2 and is between 365 and 1040.
 
 
 gi|142022655|gb|EQ086233.1|245
@@ -474,7 +474,7 @@ Frame3
 [606, 1239] [618, 1239] [969, 1239] [975, 1239] [1017, 1239] [1140, 1239]
 The longest ORF in this frame is of length 633 and is between 606 and 1239.
 
-The longest ORF is of length 633 detected in Frame3 and is between 606 and 1239.
+	The longest ORF is of length 633 detected in Frame3 and is between 606 and 1239.
 
 
 gi|142022655|gb|EQ086233.1|279
@@ -494,7 +494,7 @@ Frame3
 
 No ORFs detected in this frame.
 
-The longest ORF is of length 150 detected in Frame2 and is between 413 and 563.
+	The longest ORF is of length 150 detected in Frame2 and is between 413 and 563.
 
 
 gi|142022655|gb|EQ086233.1|378
@@ -514,7 +514,7 @@ Frame3
 [69, 102] [108, 144] [120, 144] [150, 291] [324, 447] [348, 447] [360, 447] [420, 447]
 The longest ORF in this frame is of length 141 and is between 150 and 291.
 
-The longest ORF is of length 531 detected in Frame2 and is between 2 and 533.
+	The longest ORF is of length 531 detected in Frame2 and is between 2 and 533.
 
 
 gi|142022655|gb|EQ086233.1|101
@@ -534,7 +534,7 @@ Frame3
 [870, 1320] [1128, 1320] [1248, 1320] [1302, 1320]
 The longest ORF in this frame is of length 450 and is between 870 and 1320.
 
-The longest ORF is of length 636 detected in Frame1 and is between 1633 and 2269.
+	The longest ORF is of length 636 detected in Frame1 and is between 1633 and 2269.
 
 
 The longest ORF is of length 1683 detected in sequence gi|142022655|gb|EQ086233.1|323, Frame1 and is between 2824 and 2269.

@@ -175,7 +175,7 @@ def orf_compare(seq_dict):
 				maxORF_frame_no = frame 
 			#finding the length, positions and frame no. of the inter-frame longest ORF
 		try:
-			print("The longest ORF is of length %d detected in %s and is between %s and %s.\n\n"\
+			print("\tThe longest ORF is of length %d detected in %s and is between %s and %s.\n\n"\
 					 %(interframe_maxORF, maxORF_frame_no, str(interframe_maxORF_positions[0]),\
 					str(interframe_maxORF_positions[1])))
 		except:
@@ -194,7 +194,7 @@ def orf_compare(seq_dict):
 					 %(intersequence_maxORF, maxORF_seq, maxORF_seq_frame,\
 					 str(intersequence_maxORF_positions[0]), str(interframe_maxORF_positions[1])))
 	except:
-		print("No ORFs detected in this sequence.\n")
+		print("No ORFs detected in any sequence.\n")
 	#printing the length, sequence no., frame no. and position of the longest ORF in the sequence
 
 
